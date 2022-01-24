@@ -3,3 +3,5 @@ CSS
 Git
 Context API
 SQL
+React
+Flexbox
