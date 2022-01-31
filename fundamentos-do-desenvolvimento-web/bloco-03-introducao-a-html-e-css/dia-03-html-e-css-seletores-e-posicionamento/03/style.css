@@ -1,0 +1,24 @@
+h1, p {
+    text-align: center;
+    line-height: 13px;
+}
+
+li:hover {
+    background-color: yellow;
+}
+
+li:active {
+    font-family: sans-serif;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+img {
+    padding: 10px;
+}
+
+li {
+    display: inline;
+}
