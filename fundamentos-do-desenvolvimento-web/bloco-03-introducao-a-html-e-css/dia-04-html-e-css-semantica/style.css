@@ -1,0 +1,74 @@
+body {
+    background-color: darkseagreen;
+}
+
+main{
+    width: 1100px;
+    height: 1677px;
+    background-color: aquamarine;
+    margin-top: 15px;
+    margin-left: 50px;
+    border: darkseagreen dotted 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#titulo h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navegacao li{
+    display: inline-block;
+    margin-left: 53px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blanchedalmond;
+}
+
+img{
+    margin-left: 368px;
+}
+
+h2, h3{
+    text-align: center;
+}
+
+#ref{
+    text-align: left;
+    margin-left: 10px;
+}
+
+table , th , td {
+    border-collapse: collapse;
+    width: 1000px;
+    border: black solid 1px;
+    margin: 10px 50px 10px 50px;
+    text-align: center;
+} 
+
+article p {
+    margin-left: 175px;
+    width: 70%;
+}
+
+aside{
+    display: inline-block;
+    text-align: center;
+    background-color: violet;
+    width: 180px;
+    height: 180px;
+    line-height: 21px;
+    margin: 0px;
+    position: relative;
+    left: 770px;
+    bottom: 460px;
+    border: aquamarine dotted 2px;
+}
+
+#video {
+    margin-top: 47px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 60px;
+}
