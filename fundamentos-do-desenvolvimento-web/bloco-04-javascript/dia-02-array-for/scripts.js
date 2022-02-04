@@ -47,17 +47,14 @@
 // 5 - Utilizando for , descubra qual o maior valor contido no array e imprima-o;
   
   let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-  let higherNumber = numbers[0];
+  let numeroMaior = numbers[0];
 
-  for (let index = 1; index < numbers.length; index += 1) {
-    if (numbers[index] > higherNumber) {
-      higherNumber = numbers[index];
-    }
+  for(let i = 1; i < numbers.length; i += 1){
+    if(numbers[i] > numeroMaior)
+    numeroMaior = numbers[i]
   }
-  
-  console.log(higherNumber); 
-  
-  // NÃO ENTENDI
+
+  console.log(numeroMaior)
   
 // 6 - Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: "nenhum valor ímpar encontrado";
 
@@ -78,17 +75,14 @@
 // 7 - Utilizando for , descubra qual o menor valor contido no array e imprima-o;
 
   let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-  let smallestNumber = numbers[0];
+  let numeroMenor = numbers[0];
 
-  for (let index = 1; index < numbers.length; index += 1) {
-    if (numbers[index] < smallestNumber) {
-      smallestNumber = numbers[index];
-    }
+  for(let i = 1; i < numbers.length; i += 1){
+    if(numbers[i] < numeroMenor)
+    numeroMenor = numbers[i]
   }
 
-  console.log(smallestNumber);
-
-  // NÃO ENTENDI
+  console.log(numeroMenor)
 
 // 8 - Utilizando for , crie um array que vá de 1 até 25 e imprima o resultado;
 
@@ -120,3 +114,4 @@
   }
 
   console.log(divisao)
+
