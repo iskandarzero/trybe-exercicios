@@ -83,12 +83,12 @@
 
   const angulo1 = 60;
   const angulo2 = 60;
-  const angulo3 = 60;
+  const angulo3 = -10;
 
   if(angulo1 + angulo2 + angulo3 == 180){
     console.log("true")
   }
-  else if(angulo1 + angulo2 + angulo3 > 0){
+  else if(angulo1 < 0 || angulo2 < 0 || angulo3 < 0){
     console.log("inválido")
   }
 
@@ -174,11 +174,11 @@
 
 //   Bonus: use somente um if.
 
-  const a = -30;
-  const b = -23;
-  const c = 10;
+  const a = 31;
+  const b = 23;
+  const c = 11;
 
-  if(a > 0|| b > 0|| c > 0){
+  if(a % 2 == 0|| b % 2 == 0|| c % 2 == 0){
     console.log("true")
   }
   else{
@@ -193,7 +193,7 @@
   const b = 21;
   const c = 11;
 
-  if((a % 2) != 0||(b % 2) != 0||(c % 2) != 0){
+  if((a % 2) !== 0||(b % 2) !== 0||(c % 2) !== 0){
     console.log("true")
   }
   else{
@@ -217,7 +217,7 @@
       const imposto = custoProduto * 0.20;
       const custoTotal = imposto + custoProduto;
 
-      if(valorVenda == 0 || custoProduto == 0){
+      if(valorVenda < 0 || custoProduto < 0){
         console.log("Erro")
       }
       else{
