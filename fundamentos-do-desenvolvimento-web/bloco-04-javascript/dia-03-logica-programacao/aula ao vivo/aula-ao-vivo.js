@@ -69,4 +69,4 @@ for(index = 1; index < criancas.length; index += 1){
     if(comparacao > criancas[index])
     comparacao = criancas[index]
 }
- console.log();
+ console.log(comparacao);
