@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h2 id="page-title">Título</h2>
+      <p id="paragraph" class="paragraphs">Dê uma cor para este parágrafo!</p>
+      <h4 id="subtitle">Subtítulo</h4>
+      <p id="second-paragraph" class="paragraphs">Segundo parágrafo!</p>
+    </header>
+    <script>
+      const paragraph = document.querySelector("#paragraph");
+      paragraph.style.color = "red";
+      const titulo = document.querySelector("#page-title");
+      titulo.innerText = "Três Tempos";
+      const sParagraph = document.querySelector("#second-paragraph");
+      sParagraph.innerText = "Uma trilogia de histórias românticas que se passam em 1911, 1966 e 2005 e exploram os ciclos amorosos e suas constantes mudanças. Os três contos são estrelados pelo mesmo casal de atores.";
+      const subTitulo = document.querySelector("#subtitle");
+      subTitulo.innerText = "Sinopse";
+      const paragrafos = document.querySelectorAll(".paragraphs");
+      paragrafos[0].style.color = "green";
+      const tag = document.querySelectorAll('h4');
+      tag[0].style.color = "green";
+    </script>
+  </body>
+</html>
