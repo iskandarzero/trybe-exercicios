@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <main id="paiDoPai">
+    <section id="pai">
+      <section id="primeiroFilho"></section>
+      <section id="elementoOndeVoceEsta">
+        <section id="primeiroFilhoDoFilho"></section>
+        <section id="segundoEUltimoFilhoDoFilho"></section>
+      </section>
+      Atenção!
+      <section id="terceiroFilho"></section>
+      <section id="quartoEUltimoFilho"></section>
+    </section>
+  </main>
+  <script>
+    // 1 - Acesse o elemento elementoOndeVoceEsta.
+    // 2 - Acesse pai a partir de elementoOndeVoceEsta e adicione uma color a ele.
+    let exercicio1 = document.querySelector('#elementoOndeVoceEsta').parentElement;
+    exercicio1.style.color = "red";
+    // 3 - Acesse o primeiroFilhoDoFilho e adicione um texto a ele. Você se lembra dos vídeos da aula anterior, como fazer isso?
+    let exercicio3 = document.querySelector('#primeiroFilhoDoFilho');
+    exercicio3.innerText = "Texto novo"
+    // 4 - Acesse o primeiroFilho a partir de pai .
+    let exercicio4 = document.querySelector('#pai').firstElementChild;
+    console.log(exercicio4);
+    // 5 - Agora acesse o primeiroFilho a partir de elementoOndeVoceEsta.
+    let exercicio5 = document.querySelector('#elementoOndeVoceEsta').previousElementSibling;
+    console.log(exercicio5);
+    // 6 - Agora acesse o texto Atenção! a partir de elementoOndeVoceEsta.
+    let exercicio6 = document.querySelector('#elementoOndeVoceEsta').nextSibling;
+    console.log(exercicio6);
+    // 7 - Agora acesse o terceiroFilho a partir de elementoOndeVoceEsta.
+    let exercicio7 = document.querySelector('#elementoOndeVoceEsta').nextElementSibling;
+    console.log(exercicio7);
+    // 8 - Agora acesse o terceiroFilho a partir de pai.
+    let exercicio8 = document.querySelector('#pai').children[2];
+    console.log(exercicio8);
+
+    // E a prática? Aqui!
+    // 1 - Crie um irmão para elementoOndeVoceEsta.
+    let exercicio9 = document.querySelector('#pai');
+    let exercicio9b = document.createElement('div');
+    exercicio9.appendChild(exercicio9b)
+    // 2 - Crie um filho para elementoOndeVoceEsta.
+    let exercicio10 = document.querySelector('#elementoOndeVoceEsta');
+    let exercicio10b = document.createElement('div');
+    exercicio10.appendChild(exercicio10b)
+    // 3 - Crie um filho para primeiroFilhoDoFilho.
+    let exercicio11 = document.querySelector('#primeiroFilhoDoFilho');
+    let exercicio11b = document.createElement('div');
+    exercicio11b.setAttribute('id', 'div');
+    exercicio11.appendChild(exercicio11b)
+    // 4 - A partir desse filho criado, acesse terceiroFilho.
+    let exercicio12 = document.querySelector('#div').parentElement.parentElement.nextElementSibling;
+    console.log(exercicio12);
+    // Para praticar:
+    // Remova todos os elementos filhos de paiDoPai exceto pai, elementoOndeVoceEsta e primeiroFilhoDoFilho.
+
+  </script>
+    
+</body>
+</html>
