@@ -25,21 +25,21 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 3-2: _HTML & CSS - Primeiros passos em CSS_
 - [X] 3-3: _HTML & CSS - Seletores e posicionamento_
 - [X] 3-4: _HTML Semântico_
-- [X] 3-5: _[Projeto - Lessons Learned](https://github.com/tryber/sd-020-b-project-lessons-learned/pull/12)_
+- [X] 3-5: _[Projeto - Lessons Learned](https://github.com/tryber/sd-020-b-project-lessons-learned/tree/isaac-farias-lessons-learned)_
 
 ##### Bloco 4: Introdução à JavaScript & Lógica de Programação
 
 - [X] 4-1: _JavaScript - Primeiros passos_
 - [X] 4-2: _JavaScript - Array e loop For_
-- [ ] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
-- [ ] 4-4: _JavaScript - Objetos e funções_
-- [ ] 4-5: _[Projeto - Playground Functions]()_
+- [X] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
+- [X] 4-4: _JavaScript - Objetos e funções_
+- [X] 4-5: _[Projeto - Playground Functions](https://github.com/tryber/sd-020-b-project-playground-functions/tree/isaac-farias-playground-functions)_
 
 ##### Bloco 5: JavaScript - Dom, Eventos & Web Storage
 
-- [ ] 5-1: _JavaScript - DOM e seletores_
-- [ ] 5-2: _JavaScript - Trabalhando com elementos_
-- [ ] 5-3: _JavaScript - Eventos_
+- [X] 5-1: _JavaScript - DOM e seletores_
+- [X] 5-2: _JavaScript - Trabalhando com elementos_
+- [X] 5-3: _JavaScript - Eventos_
 - [ ] 5-4: _JavaScript - Web Storage_
 - [ ] 5-5: _Fundamentos - JavaScript - Projetos_
 - [ ] 5-5: _[Projeto - Arte com Pixels]()_
