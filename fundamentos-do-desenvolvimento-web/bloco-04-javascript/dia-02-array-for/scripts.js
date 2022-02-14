@@ -59,18 +59,15 @@
 // 6 - Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: "nenhum valor ímpar encontrado";
 
   let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-  let teste = []
+  let contagem = 0;
 
   for(let i = 0; i < numbers.length; i += 1){
     if(numbers[i] % 2 !== 0){
-      teste.push(numbers[i])
-    }
-    else{
-      console.log("Nenhum valor impar encontrado")
+      contagem = contagem + 1
     }
   }
 
-  console.log(teste)
+  let mensagem = contagem > 0 ? console.log(contagem):console.log("nenhum valor ímpar encontrado");
   
 // 7 - Utilizando for , descubra qual o menor valor contido no array e imprima-o;
 
@@ -114,4 +111,3 @@
   }
 
   console.log(divisao)
-
