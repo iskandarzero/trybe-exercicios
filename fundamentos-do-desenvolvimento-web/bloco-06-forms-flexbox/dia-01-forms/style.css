@@ -1,0 +1,29 @@
+h1 {
+  margin-left: 365px;
+}
+fieldset {
+  width: 646px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#name, #mail, #des1, #des2, #des3, #des4 {
+  margin-top: 10px;
+}
+
+#areaTexto {
+  margin-top: 5px;
+}
+
+.botoes {
+  margin-top: 15px;
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  border-radius: 8px;
+}
+
+#botoes {
+  display: inline-block;
+  margin-left: 480px;
+}
