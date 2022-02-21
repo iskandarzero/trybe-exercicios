@@ -1,17 +1,15 @@
-const INPUT_TEXT = document.querySelector("#input-text");
-const INPUT_CHECKBOX = document.querySelector("#input-checkbox");
-const HREF_LINK = document.querySelector("#href");
+const botao = document.querySelector('#button');
+const botaoApagar = document.createElement('button');
+botaoApagar.innerText = 'Apagar';
+botaoApagar.className = 'botoes';
+document.querySelector('#botoes').appendChild(botaoApagar);
 
-HREF_LINK.addEventListener('click', function(event){
-    event.preventDefault();
+botao.addEventListener('click', function(event){
+  event.preventDefault()
 })
 
-INPUT_CHECKBOX.addEventListener('click', function(event){
-    event.preventDefault();
-})
+function clearForms() {
+  document.querySelector('#formulario').reset();
+}
 
-INPUT_TEXT.addEventListener('keypress', function(event){
-  if (event.key !== 'a') {
-    event.preventDefault();
-  }
-})
+botaoApagar.addEventListener('click', clearForms);
