@@ -67,4 +67,3 @@ const gameActions = {
 console.log(gameActions.warriorAttack(warriorDamage));
 console.log(gameActions.mageAttack(mageSpell));
 console.log(gameActions.dragonAttack(dragonDamage));
-
