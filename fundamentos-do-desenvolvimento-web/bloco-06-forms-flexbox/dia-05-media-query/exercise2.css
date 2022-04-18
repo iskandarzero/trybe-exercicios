@@ -1,0 +1,36 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font: 1.1em arial;
+  margin: 8% 5% 3%;
+}
+
+header p {
+  font-size: 1.1em;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+
+nav ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  font-size: 0.9em;
+}
+
+.aside-one ul {
+  padding: 0;
+  list-style: none;
+}
+
+h2 {
+  text-align: center;
+}
