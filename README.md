@@ -129,36 +129,36 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [X] 17-1: _Context API do React_
 - [X] 17-2: _React Hooks - useState e useContext_
-- [ ] 17-3: _React Hooks - useEffect e Hooks customizados_
-- [ ] 17-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
+- [X] 17-3: _React Hooks - useEffect e Hooks customizados_
+- [X] 17-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
 
 ##### Bloco 18: Projeto Final de Front-end
 
-- [ ] 18-1: _[Projeto - App de Receitas]()_
+- [X] 18-1: _[Projeto - App de Receitas]()_
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
 ##### Bloco 19: Docker: Utilizando Containers
 
-- [ ] 19-1: _Utilizando Containers - Docker_
-- [ ] 19-2: _Manipulação e Criação de Imagens no Docker_
-- [ ] 19-3: _Orquestrando Containers com Docker Compose_
-- [ ] 19-4: _[Projeto - Docker Todo-List]()_
+- [X] 19-1: _Utilizando Containers - Docker_
+- [X] 19-2: _Manipulação e Criação de Imagens no Docker_
+- [X] 19-3: _Orquestrando Containers com Docker Compose_
+- [X] 19-4: _[Projeto - Docker Todo-List]()_
 
 ##### Bloco 20: Introdução a SQL
 
-- [ ] 20-1: _Banco de dados SQL_
-- [ ] 20-2: _Encontrando dados em um banco de dados_
-- [ ] 20-3: _Filtrando dados de forma específica_
-- [ ] 20-4: _Manipulando tabelas_
-- [ ] 20-5: _[Projeto - All For One]()_
+- [X] 20-1: _Banco de dados SQL_
+- [X] 20-2: _Encontrando dados em um banco de dados_
+- [X] 20-3: _Filtrando dados de forma específica_
+- [X] 20-4: _Manipulando tabelas_
+- [X] 20-5: _[Projeto - All For One]()_
 
 ##### Bloco 21: Funções SQL, JOINs & Normalização
 
-- [ ] 21-1: _Funções mais usadas no SQL_
-- [ ] 21-2: _Descomplicando JOINs_
-- [ ] 21-3: _Transformando ideias em um modelo de banco de dados_
-- [ ] 21-4: _[Projeto - One For All]()_
+- [X] 21-1: _Funções mais usadas no SQL_
+- [X] 21-2: _Descomplicando JOINs_
+- [X] 21-3: _Transformando ideias em um modelo de banco de dados_
+- [X] 21-4: _[Projeto - One For All]()_
 
 ##### Bloco 22: Introdução ao desenvolvimento Web com Node.js
 
